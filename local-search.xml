@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>测试文章</title>
+    <link href="/2023/10/25/test-posts/"/>
+    <url>/2023/10/25/test-posts/</url>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文章，用来测试vercel是否能自动根据github更新网站信~</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>misc</category>
+      
+      <category>surfing</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2023/09/26/hello-world/"/>
     <url>/2023/09/26/hello-world/</url>
