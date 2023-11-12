@@ -4,27 +4,6 @@
   
   
   <entry>
-    <title>awd-plus赛前练习</title>
-    <link href="/2023/11/03/awd-trains/"/>
-    <url>/2023/11/03/awd-trains/</url>
-    
-    <content type="html"><![CDATA[<h3 id="0x01-todo"><a href="#0x01-todo" class="headerlink" title="0x01 todo"></a>0x01 todo</h3><p>因为过两天要去重邮打awdplus，一直以来心中都有一根刺，那就是java的fix和attack，因为今年打了好多比赛java的签到题都是shiro的remeberme反序列化攻击，可谓是老演员了，但是我一直没有攻破，而且今年ciscn我也不知道怎么patch一个编译好的jar文件（虽然我是个java后端），所以今天我要去学会怎么fix一个java程序还有就是掌握基本的shiro反序列化攻击。</p><h3 id="0x02-fix"><a href="#0x02-fix" class="headerlink" title="0x02 fix"></a>0x02 fix</h3><p>使用jadx可以很容易的得到反编译后的<code>.java</code>文件，现在面临几个问题，反编译后的文件怎么去适配maven或者Gradle，还有就是根据今年ciscn的反序列化问题的时候当时面临的怎么在maven引用本地的jar包</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>security</category>
-      
-      <category>awd</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Request Splitting</title>
     <link href="/2023/10/31/Request_Splitting/"/>
     <url>/2023/10/31/Request_Splitting/</url>
