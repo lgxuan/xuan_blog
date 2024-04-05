@@ -571,7 +571,7 @@ z-index: 999;
   src="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js"
 ></script>
 <script>
-new sakana = new SakanaWidget({ autofit:true,character: 'rikka' }).setState({ d: 0.001, r: 1, t: 0, w:0});
+const sakana = new SakanaWidget({ autofit:true,character: 'rikka' }).setState({ d: 0.001, r: 1, t: 0, w:0});
 const rikka = sakana.getCharacter('chisato');
 rikka.image = `https://s2.loli.net/2024/04/05/eFhvcHoyBTwZjPd.png`;
 sakana.registerCharacter('rikka', rikka); 
