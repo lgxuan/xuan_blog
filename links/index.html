@@ -412,13 +412,13 @@ z-index: 999;
 "></div>
 <script>
   function initSakanaWidget() {
-    new SakanaWidget({ autofit:true }).mount('#sakana-widget');
+    new SakanaWidget({ autofit:true }).setState({ d: .99, r: 1, t: 0, w:0}).mount('#sakana-widget');
   }
 </script>
 <script
   async
   onload="initSakanaWidget()"
-  src="https://blog.ox0.moe/js/sakana.min.js"
+  src="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js"
 ></script>
 <a target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
 <i class="iconfont icon-love"></i>
