@@ -585,7 +585,7 @@ z-index: 999;
     const rikka = SakanaWidget.getCharacter('chisato');
     rikka.image = `https://s2.loli.net/2024/04/05/eFhvcHoyBTwZjPd.png`;
     SakanaWidget.registerCharacter('rikka', rikka);
-    new SakanaWidget({ character: 'rikka',size: '250' }).setState({ i: 0.001, d: 1, t: 0, w:0}).mount('#sakana-widget');
+    new SakanaWidget({ character: 'rikka',autofit:true }).setState({ i: 0.001, d: 1, t: 0, w:0}).mount('#sakana-widget');
   }
 </script>
 <a target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
