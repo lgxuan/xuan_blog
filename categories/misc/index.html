@@ -339,7 +339,9 @@ z-index: 999;
   onload="initSakanaWidget()"
   src="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js"
 ></script>
-<script>
+<script
+      async
+  onload="initSakanaWidget()">
 const rikka = SakanaWidget.getCharacter('chisato');
 rikka.image = `https://s2.loli.net/2024/04/05/eFhvcHoyBTwZjPd.png`;
 SakanaWidget.registerCharacter('rikka', rikka); 
